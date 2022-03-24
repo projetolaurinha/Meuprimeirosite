@@ -2,7 +2,7 @@ body {
    background-color:#E0FFFF ; 
 } 
 
-img{
+.img_topo {
    width: 100%;
    height: 100px;
 }
@@ -10,7 +10,24 @@ img{
 figure{
    text-align: center;
 }
+.img_corpo{
+   width: 30%;
+}
 
+.container{
+   width: 80%;
+   margin: auto;
+}
+
+h1{
+   text-align: center;
+}
+
+p{
+   font-size: 2em;
+   text-align: justify;
+   text-indent: 35px;
+}
 
 
 
