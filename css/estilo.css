@@ -7,8 +7,16 @@ html{
    padding: 2%;
 }
 
+section{
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+
 .itens_menu{
    text-align: center;
+   line-height: 1.5;
+   text-align: center;
+   font-size: 1.3em;
 }
 
 
@@ -26,6 +34,8 @@ figure{
 }
 .img_corpo{
    width: 30%;
+   margin-top: 2%;
+   margin-bottom: 2%;
 }
 
 .container{
@@ -45,6 +55,8 @@ p{
    font-size: 2em;
    text-align: justify;
    text-indent: 35px;
+   line-height: 1.5;
+   text-indent: 30px;
 }
 
 .paleta_cores > p{
@@ -80,6 +92,22 @@ footer p {
 
 .center{
   text-align: center;
+}
+
+
+.direita{
+   float: right;
+   width: 40%;
+   margin-left: 2%;
+}
+
+.esquerda{
+   float: left;
+   width: 40%;
+   margin-right: 2%;
+   margin-top: 2%;
+   height: 55%;
+
 }
 
 
