@@ -23,7 +23,7 @@ section{
 .itens_menu a:link, .itens_menu a:visited { 
   
   color: black;
-  border: 2px solid green;
+  border: 2px solid rgba(128,128,128,0.4);
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
