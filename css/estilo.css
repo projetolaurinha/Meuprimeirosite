@@ -41,6 +41,7 @@ a:hover, a:active {
 
 body {
    background-color:#000000 ; 
+   font-family: 'Inconsolata', monospace;
 } 
 
 .img_topo {
