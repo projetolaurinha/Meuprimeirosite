@@ -22,12 +22,10 @@ section{
 
 .itens_menu a:link, .itens_menu a:visited { 
   
-  color: black;
-  border: 2px solid rgba(128,128,128,0.4);
+  color: white;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   line-height: 2em;
   
 }
@@ -70,6 +68,15 @@ h1{
    font-size: 2em;
    color: #F08080;
  
+}
+
+h2{
+   text-align: center;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   font-size: 2em;
+   color: #F08080;
+  
 }
 
 p{
@@ -123,16 +130,16 @@ footer p {
 
 .direita{
    float: right;
-   width: 40%;
+   width: 20%;
    margin-left: 2%;
 }
 
 .esquerda{
    float: left;
-   width: 40%;
-   margin-right: 2%;
-   margin-top: 2%;
-   height: 55%;
+   width: 20%;
+   margin-right: 1%;
+   margin-top: 1%;
+   height:40%;
 
 }
 
@@ -151,19 +158,32 @@ a:link {
  /* mouse over link */
  a:hover {
    color:#fff ;
+   background-color: #F08080;
   
  }
  
  /* selected link */
  a:active {
    color: #fff;
+   background-color: #F08080;
+
  }
   
- table{
-   border-collapse: collapse;
+ table, th,tr{
+   border-collapse:collapse;
+   border:solid;
    width: 100%;
    color: #fff;
+   padding-top: 5px;
+   padding-bottom: 20px;
+   font-size: 30px;
+   font-style: oblique;
+   margin-bottom: 70px;
+   text-align: center;
+ }
 
+ tr:nth-child(even){
+    background-color: #F08080;
  }
 
 
