@@ -67,7 +67,7 @@ h1{
    padding-bottom: 1%;
    font-size: 2em;
    color: #F08080;
- 
+   font-family: 'Dancing Script', cursive;
 }
 
 h2{
@@ -76,7 +76,7 @@ h2{
    padding-bottom: 1%;
    font-size: 2em;
    color: #F08080;
-  
+   font-family: 'Dancing Script', cursive;
 }
 
 p{
@@ -186,4 +186,54 @@ a:link {
     background-color: #F08080;
  }
 
+ form {
+   box-sizing: border-box;
+   padding-bottom: 30em;
+ }
 
+ input[type=text], select, textarea,input[type=tel],input[type=email],input[type=ondemora] {
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   resize: vertical; 
+   
+ }
+
+ 
+label {
+  
+   display: inline-block;
+   color: #F08080;
+ }
+     
+ 
+.col-25 {
+   float: left;
+   width: 25%;
+   margin-top: 6px;
+ }
+ 
+ .col-75 {
+   float: left;
+   width: 75%;
+   margin-top: 6px;
+ }
+
+ input[type=submit] {
+   background-color:    #F08080;
+   color: white;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   float: right;
+ }
+
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ 
