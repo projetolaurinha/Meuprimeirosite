@@ -15,6 +15,9 @@
             text-align: center;
             font-size: xx-large;
             font-weight: bolder;
+            background-color: aliceblue;
+            margin-bottom: 300px;
+           
 
         }
 
@@ -24,14 +27,88 @@
            font-weight: bolder;
            font-size: xx-large;
         }
+        .main{
+            width: 100%;
+            height: 600px;
+            background-color: aquamarine;
+            position: relative;
+        }
+
+        .fixo{
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000px;
+
+        }
+        .container{
+            margin-top: 100px;
+        }
+
+        .topoesq{
+            width: 20%;
+            background-color: antiquewhite;
+            position: absolute;
+            top: 16px;
+            left: 16px;
+        }
+
+        .topodir{
+            width: 20%;
+            background-color: coral;
+            position: absolute;
+            top: 16px;
+            right: 16px;
+           
+        }
+
+        .cantoesq{
+            width: 20%;
+            background-color: cornflowerblue;
+            position: absolute;
+            bottom: 16px;
+            left: 16px;
+        }
+
+        .cantodir{
+            width: 20%;
+            background-color: darkkhaki;
+            position: absolute;
+            right: 16px;
+            bottom: 16px;
+           
+        }
+
+        .centro{
+            width: 20%;
+            background-color: crimson;
+            position: absolute;
+            left: 600px;
+           top: 300px;
+            
+        }
 
     </style>
 </head >
 <body>
-    <h1>CSS interno</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat esse dolores iste obcaecati voluptatibus a repellendus, id, totam excepturi nisi ratione nulla porro et cumque. Numquam voluptate ipsa doloremque consequatur.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint neque officiis similique aut sed tenetur numquam minima error non, quod dicta voluptas veritatis dolorem laboriosam quo nam perferendis eum laborum.</p>
-    <p style="color: coral;font-size: xx-large; font-weight: bolder;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam mollitia, sequi maiores quae, necessitatibus incidunt provident debitis commodi quasi voluptatibus neque voluptatum asperiores accusantium laboriosam labore vero molestias voluptate minima.</p>
-    <p style="color: black;font-size: xx-large;font-weight: bolder;"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste libero adipisci dolores qui quaerat, rerum, in nemo quos enim natus esse ipsa autem laborum maiores temporibus veritatis quia, distinctio magnam.</p>
+   <!--  <header>
+      <h1 class="fixo">CSS interno</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat esse dolores iste obcaecati voluptatibus a repellendus, id, totam excepturi nisi ratione nulla porro et cumque. Numquam voluptate ipsa doloremque consequatur.</p>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint neque officiis similique aut sed tenetur numquam minima error non, quod dicta voluptas veritatis dolorem laboriosam quo nam perferendis eum laborum.</p>
+       <p style="color: coral;font-size: xx-large; font-weight: bolder;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam mollitia, sequi maiores quae, necessitatibus incidunt provident debitis commodi quasi voluptatibus neque voluptatum asperiores accusantium laboriosam labore vero molestias voluptate minima.</p>
+       <p style="color: black;font-size: xx-large;font-weight: bolder;"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste libero adipisci dolores qui quaerat, rerum, in nemo quos enim natus esse ipsa autem laborum maiores temporibus veritatis quia, distinctio magnam.</p>
+   </header>
+ -->
+       <div class="container">
+        <h1>testando posiçoes</h1>
+           <div class="main">
+           
+            <div class="topoesq"> teste1</div>
+            <div class="topodir"> teste2</div>
+            <div class="centro"> teste3</div>
+            <div class="cantoesq"> teste4</div>
+            <div class="cantodir"> teste5</div>
+         </div>
+        </div>
 </body>
 </html>
