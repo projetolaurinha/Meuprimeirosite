@@ -4,9 +4,9 @@
 <svg
    version="1.1"
    id="svg4190"
-   width="230"
-   height="0.001"
-   viewBox="0 0 230 0.001"
+   width="600"
+   height="600"
+   viewBox="0 0 600 600"
    sodipodi:docname="logoofc1.svg"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -26,10 +26,10 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.3566667"
-     inkscape:cx="145.20884"
-     inkscape:cy="64.127763"
-     inkscape:window-width="1600"
-     inkscape:window-height="837"
+     inkscape:cx="145.20885"
+     inkscape:cy="300"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -39,15 +39,15 @@
      inkscape:label="Image"
      id="g4196">
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:#010000;stroke-width:2.20366;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#000000;fill-opacity:1;stroke:#010000;stroke-width:3.03741;stroke-dasharray:none;stroke-opacity:1"
        id="rect18435"
-       width="228.36046"
-       height="217.30392"
-       x="0.43894419"
-       y="0.43893245" />
+       width="314.50461"
+       height="299.76257"
+       x="79.725586"
+       y="28.128532" />
     <g
        id="g3092"
-       transform="matrix(1.8025416,0,0,1.7987808,-66.232613,0.09669423)"
+       transform="matrix(2.4244988,0,0,2.4813659,-7.3814674,29.498219)"
        style="fill:none;fill-opacity:1;stroke:#ffb6c1;stroke-opacity:1">
       <g
          id="g11202"

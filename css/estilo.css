@@ -20,11 +20,9 @@ header{
 
 
 
-.logo {
-   text-align: center;
-   width: 20%;
 
-}
+
+
 
 .img_logo{
    width: 100%;
@@ -261,9 +259,41 @@ label {
    clear: both;
  }
  
- @media screen and (max-width: 400px) {
+  /* tela menor que 600px */
+ @media screen and (max-width: 600px) {
    .col-25,.col-75 ,input[type=submit]{
       width: 80%;
       margin-top: 0;
    }
  }
+
+ /* tela maior que 600px */
+  @media screen and (min-width: 601px){
+   header{
+      
+       flex-direction: row;
+  }
+
+  .itens_menu{
+      position: absolute;
+      right: 5%;
+      width: 50%;
+  }
+
+  .itens_menu ul li{
+      display: inline;
+      margin-left: 50%;
+
+  }
+
+  .logo{
+      text-align: left;
+      width: 20%;
+  }
+
+  
+
+  .img_logo{
+      width: 50%;
+  }
+  }
