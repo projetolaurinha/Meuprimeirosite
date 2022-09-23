@@ -1,0 +1,48 @@
+html
+
+
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: cadetblue;
+    text-align: center;
+    font-family: 'Passions Conflict', cursive;
+}
+
+p{
+    color:beige ;
+    background-color: black;
+    text-align: center;
+}
+
+header{
+    background-color: black;
+}
+
+.menu{
+    background-color: blanchedalmond;
+}
+
+
+.imgtop{
+    width: 20%;
+    text-align: center;
+    padding-left: 40%;
+}
+
+.imgcorpo{
+    width: 30%;
+    height: 10%;
+    padding-left: 35%;
+}
+
+ul,li{
+    text-align: center;
+}
+
+.footer{
+    background-color: darkgray;
+}
